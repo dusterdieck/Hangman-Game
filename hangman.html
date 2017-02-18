@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trigger Random</title>
+
+  <!-- Added link to javascript file -->
+  <script src="assets/javascript/script.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+  <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+
+</head>
+<body>
+  <div id="win-lose">
+  </div>
+  <div class="jumbotron">
+
+    <h1 class="text-center">Hangman</h1>
+    <h2 class="text-center" id="remaining"></h2>
+
+    <div class="text-center">
+
+      <!-- Here we have our button for generating random numbers (#random-button) -->
+      <button id="random-button" class="btn btn-primary btn-lg" onclick='clickFunction()'>Would you like to play a game <span class="glyphicon glyphicon-question-sign"></span></button>
+      
+    </div>
+
+  </div>
+
+  <!-- Here we have div called "random-number" where our random number will go -->
+  <h1 class="text-center" id="game"></h1><br><br>
+  <h2 class="text-center" id="missed-letters"></h2>
+
+  
+</body>
+</html>

@@ -1,0 +1,7 @@
+.jumbotron{
+      max-width: 960px;
+      margin: 0 auto;
+      background: url(assets/images/background.png);
+      color: white;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
